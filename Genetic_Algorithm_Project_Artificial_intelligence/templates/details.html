@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Airplane Route Optimization System</title>
+    <!-- Your CSS styles here -->
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    }
+    .header {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #0077cc;
+    color: #ffffff;
+    }
+    .details-section h2{
+        text-align: center;
+    }
+    .details-section p{
+        padding-bottom: 30px;
+    }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1 class="heading">Airplane Route Optimization System</h1>
+    </div>
+
+    <section class="details-section">
+        <h2 class="routes-heading">Optimized Route</h2>
+        <p>Best Route: {{ best_chromosome }}</p>
+        <p>Best Fitness: {{ best_fitness }}</p>
+    </section>
+</body>
+</html>
